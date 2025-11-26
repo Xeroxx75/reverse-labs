@@ -11,19 +11,19 @@ The goal is to document my technical exploration, consolidate practical knowledg
 
 ## Contents
 
-- `dfir-incident-01-ws01/`  
+- `DFIR-Homelab-01/`  
   DFIR investigation of a simulated incident on a Windows workstation:
   - analysis of a PyInstaller-packed malware (`update_win.exe`),
   - memory forensics (Volatility 3), disk triage (KAPE), and network analysis (Wireshark),
   - correlation of Sysmon logs and reconstruction of the attack timeline.  
-  See `dfir-incident-01-ws01/README.md`.
+  See `DFIR-Homelab-01/README.md`.
 
-- `dfir-malware-lab/`  
+- `DFIR-Malware-Lab/`  
   Academic ransomware analysis lab (CentraleSupélec):
   - full report `TP_Analyse_GPGcryptor.pdf`,
   - analysis of persistence, encrypted file format and Camellia-128 CFB crypto,
   - defensive tools: Python decryptor and PowerShell restoration script.  
-  See `dfir-malware-lab/README.md`.
+  See `DFIR-Malware-Lab/README.md`.
 
 - `crackme key-license/`  
   Reverse engineering of the “Sallos's Key License” crackme:
